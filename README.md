@@ -1,5 +1,12 @@
 # DMN Samples on Quarkus
 
+1. run this project in dev mode with:
+```
+mvn quarkus:dev
+```
+
+2. access http://localhost:8080/q/swagger-ui to try out the decisions using the REST API
+
 Example input for "DatesAndLists" decision:
 ```
 {

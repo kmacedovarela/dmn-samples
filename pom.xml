@@ -15,9 +15,7 @@
     <kogito.bom.artifact-id>kogito-bom</kogito.bom.artifact-id>
     <kogito.bom.version>1.32.0.Final</kogito.bom.version>
     <version.org.kie.kogito>1.32.0.Final</version.org.kie.kogito>
-    <!-- Port 0 means dynamic port -->
     <tests.quarkus.http.port>0</tests.quarkus.http.port>
-    <!-- override default to fast-jar packaging for forward-compatibility -->
     <quarkus.package.type>fast-jar</quarkus.package.type>
   </properties>    
   <dependencyManagement>
